@@ -32,5 +32,5 @@ variable "public_subnet_az" {
 variable "environment" {
   description = "Deployment environment (e.g. dev, test, prod)"
   type        = string
-  default     = "dev"
+  default     = "HCP-dev"
 }
